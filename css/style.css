@@ -427,22 +427,32 @@ width: 100%;
 }
 
 .games__container {
-    display: flex;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
     justify-content: center;
-    gap: 57px;
+    row-gap: 50px;
 }
 
 .games__items {
     display: flex;
     align-items: center;
     gap: 16px;
+    border: 1px solid transparent;
+    border-radius: 50px;
+    padding: 10px;
+    transition: all linear 0.3s;
 }
-
 .games__type {
     color: #0B0223;
     font-size: 20px;
     font-weight: 600;
+}
+.games__items:hover{
+    border: 1px solid #ff42a5;
+    border-radius: 50px;
+}
+.games__items:hover .games__type{
+    color: #ff42a5;
 }
 
 /* ======  footer css styles ======== */

@@ -1,0 +1,199 @@
+/* ======= extra small device ============ */
+@media screen and (max-width:576px){
+    /* ======  head css styles ======== */
+.nav__container {
+    justify-content: center;
+    row-gap: 32px;
+}
+
+.nav__menu {
+    flex-direction: column;
+}
+
+
+/* ======  banner css styles ======== */
+#banner {
+    margin-top: 50px;
+}
+
+.banner__container {
+    flex-direction: column-reverse;
+    justify-content: center;
+    row-gap: 32px;
+}
+
+.banner__title {
+    color: #0B0223;
+    font-size: 38px;
+}
+
+.banner__heading {
+    font-size: 65px;
+}
+
+.banner__img img {
+    width: 100%;
+}
+
+/* ======  gamer css styles ======== */
+
+.gamer__content {
+    text-align: center;
+}
+
+
+/* ======  gamer funny css styles ======== */
+#gamer__funny {
+    padding: 50px 0;
+}
+
+.funny__gallary {
+    grid-template-columns:1fr;
+}
+/* ======  instant css styles ======== */
+
+.instant__container {
+    row-gap: 50px;
+}
+.instant__heading {
+    text-align: center;
+}
+.instant__details {
+    text-align: center;
+}
+.instant__img img {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.instant__big__img {
+    position: relative;
+}
+
+.instant__small__img {
+    position: absolute;
+    left: -20%;
+    bottom: -10%;
+}
+
+/* ======  anywhere css styles ======== */
+
+.anywhere__container .instant__heading,
+.instant__details {
+    text-align: center;
+}
+
+.anywhere__small__img {
+    position: absolute;
+    bottom: -20%;
+    right: -10%;
+}
+
+/* ======  career css styles ======== */
+
+.career__content {
+    max-width: 100%;
+}
+
+
+.career__list__main {
+    justify-content:center;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.career__list__two {
+    text-align: center;
+}
+#career button {
+    display: inline-block;
+    background: #FFF;
+    color: #FF42A5;
+    margin: a auto;
+}
+
+/* ======  games css styles ======== */
+#games {
+    padding: 120px 0;
+}
+
+.games__container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 57px;
+}
+
+.games__items {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.games__type {
+    color: #0B0223;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+/* ======  footer css styles ======== */
+footer {
+    text-align: center;
+    background: #0B0223;
+    padding: 120px 0;
+}
+
+.footer__logo {
+    font-size: 45px;
+    font-weight: 700;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    line-height: 0.8;
+}
+
+.footer__links {
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    margin: 56px 0;
+    flex-wrap: wrap;
+}
+
+.footer__links a {
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: capitalize;
+
+}
+
+.footer__icons {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+.footer__links__two {
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    flex-wrap: wrap;
+}
+
+.footer__links__two a {
+    color: rgba(255, 255, 255, 0.60);
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: capitalize;
+    margin: 74px 0 28px 0;
+}
+
+.copyright a {
+    color: rgba(255, 255, 255, 0.60);
+    font-size: 16px;
+    font-weight: 500;
+}
+}
