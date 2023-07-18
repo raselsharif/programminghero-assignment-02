@@ -14,7 +14,6 @@ ul,
 ol {
     list-style: none;
 }
-
 .container {
     max-width: 1440px;
     margin: 0 auto;
@@ -25,6 +24,12 @@ button {
     font-size: 20px;
     font-weight: 600;
     text-transform: uppercase;
+    transition: all linear 0.3s;
+    cursor: pointer;
+}
+
+button:hover {
+    opacity: 0.8;
 }
 
 .btn__primary,
@@ -49,15 +54,16 @@ button {
     justify-content: space-between;
     align-items: center;
     padding-top: 37px;
+    flex-wrap: wrap;
 }
 
 .nav__logo {
     font-size: 45px;
-    ;
     font-weight: 700;
     display: flex;
     align-items: center;
     line-height: 0.8;
+    flex-wrap: wrap;
 }
 
 .logo__text {
@@ -71,6 +77,7 @@ button {
 .nav__menu {
     display: flex;
     align-items: center;
+    flex-wrap: wrap;
     gap: 32px;
 }
 
@@ -118,6 +125,7 @@ button {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .banner__title {
@@ -168,8 +176,11 @@ button {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;
 }
-
+.gamer__img img{
+width: 100%;
+}
 .gamer__content {
     text-align: right;
 }
@@ -216,6 +227,7 @@ button {
     font-size: 48px;
     font-weight: 700;
     margin-bottom: 16px;
+    flex-wrap: wrap;
 }
 
 .funny__color {
@@ -300,6 +312,7 @@ button {
     justify-content: center;
     align-items: center;
     column-gap: 264px;
+    flex-wrap: wrap;
 }
 
 .instant__heading {
@@ -348,18 +361,22 @@ button {
     align-items: center;
     column-gap: 264px;
     flex-direction: row-reverse;
+    flex-wrap: wrap;
 }
-.anywhere__container .instant__heading,.instant__details {
+
+.anywhere__container .instant__heading,
+.instant__details {
     text-align: left;
 }
-.anywhere__small__img{
+
+.anywhere__small__img {
     position: absolute;
     bottom: -20%;
     right: -10%;
 }
 
 /* ======  career css styles ======== */
-#career{
+#career {
     margin-top: 120px;
     background: url(../images/Group\ 65.png), linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
     background-repeat: no-repeat;
@@ -368,37 +385,123 @@ button {
     padding: 120px 0;
     color: #FFF;
 }
-.career__content{
+
+.career__content {
     max-width: 680px;
 }
-.career__heading{
+
+.career__heading {
     font-size: 48px;
     font-weight: 700;
     line-height: 60px;
 }
-.career__details{
+
+.career__details {
     font-size: 18px;
     font-weight: 400;
     line-height: 30px;
     margin: 24px 0 32px 0;
 }
-.career__list__main{
+
+.career__list__main {
     font-size: 20px;
     font-weight: 600;
     line-height: 40px;
     display: flex;
-    justify-content: space-between; 
+    justify-content: space-between;
     margin-bottom: 40px;
 }
-.career__list__two{
-text-align: right;
+
+.career__list__two {
+    text-align: right;
 }
-#career button{
+
+#career button {
     background: #FFF;
     color: #FF42A5;
 }
 
-/* ======  head css styles ======== */
+/* ======  games css styles ======== */
+#games {
+    padding: 120px 0;
+}
 
+.games__container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 57px;
+}
 
-/* ======  head css styles ======== */
+.games__items {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.games__type {
+    color: #0B0223;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+/* ======  footer css styles ======== */
+footer {
+    text-align: center;
+    background: #0B0223;
+    padding: 120px 0;
+}
+
+.footer__logo {
+    font-size: 45px;
+    font-weight: 700;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    line-height: 0.8;
+}
+
+.footer__links {
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    margin: 56px 0;
+    flex-wrap: wrap;
+}
+
+.footer__links a {
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: capitalize;
+
+}
+
+.footer__icons {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+.footer__links__two {
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    flex-wrap: wrap;
+}
+
+.footer__links__two a {
+    color: rgba(255, 255, 255, 0.60);
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: capitalize;
+    margin: 74px 0 28px 0;
+}
+
+.copyright a {
+    color: rgba(255, 255, 255, 0.60);
+    font-size: 16px;
+    font-weight: 500;
+}
