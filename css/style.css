@@ -1,0 +1,177 @@
+/* ======  common css styles ======== */
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Work Sans', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+/* ======  head css styles ======== */
+
+
+/* ======  head css styles ======== */
+.nav__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 37px;
+}
+
+.nav__logo {
+    font-size: 45px;
+    ;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    line-height: 0.8;
+}
+
+.logo__text {
+    margin-left: 20px;
+}
+
+.g__text {
+    color: #ff42a5;
+}
+
+.nav__menu {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+}
+
+.nav__menu a {
+    color: #3C354F;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.nav__search {
+    position: relative;
+}
+
+.nav__search input {
+    padding: 17px 24px;
+    border: 0;
+    border-radius: 8px;
+    background: rgba(11, 2, 35, 0.10);
+    outline: 0;
+    color: #3C354F;
+    font-size: 18px;
+    font-weight: 500;
+
+}
+
+.nav__icons {
+    display: flex;
+    gap: 16px;
+    position: absolute;
+    right: 24px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.nav__icons li a i {
+    font-size: 24px;
+}
+
+/* ======  banner css styles ======== */
+#banner {
+    margin: 50px 0 100px 0;
+}
+
+.banner__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.banner__content {}
+
+.banner__title {
+    color: #0B0223;
+    font-size: 48px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.banner__heading {
+    font-size: 95px;
+    font-weight: 800;
+    text-transform: uppercase;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.banner__text__list {
+    color: #534C64;
+    font-size: 20px;
+    font-weight: 500;
+    text-transform: lowercase;
+    margin: 24px 0 40px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+
+.banner__text__list li {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.banner__btns button{
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.btn__primary, .btn__secondary{
+padding: 20px 40px;
+background: #FF42A5;
+border-radius: 48px;
+border: 0;
+}
+.btn__secondary{
+    background: #4EC5F7;
+    margin-left: 24px;
+}
+.banner__img img {
+    width: 100%;
+}
+
+/* ======  head css styles ======== */
+
+
+/* ======  head css styles ======== */
+
+
+/* ======  head css styles ======== */
+
+
+/* ======  head css styles ======== */
+
+
+/* ======  head css styles ======== */
+
+
+/* ======  head css styles ======== */
+
+
+/* ======  head css styles ======== */
