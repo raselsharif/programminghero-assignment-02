@@ -265,7 +265,7 @@ button:hover {
     cursor: pointer;
     border: 5px solid transparent;
     height: 400px;
-    width: 342px;
+    max-width: 342px;
 }
 .funny__img img{
     height: 100%;
