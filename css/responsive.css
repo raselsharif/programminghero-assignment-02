@@ -1,199 +1,140 @@
 /* ======= extra small device ============ */
-@media screen and (max-width:576px){
+@media screen and (max-width:576px) {
+    .container {
+        padding: 0 20px;
+    }
+
     /* ======  head css styles ======== */
-.nav__container {
-    justify-content: center;
-    row-gap: 32px;
-}
+    .nav__container {
+        justify-content: center;
+        row-gap: 32px;
+    }
 
-.nav__menu {
-    flex-direction: column;
-}
-
-
-/* ======  banner css styles ======== */
-#banner {
-    margin-top: 50px;
-}
-
-.banner__container {
-    flex-direction: column-reverse;
-    justify-content: center;
-    row-gap: 32px;
-}
-
-.banner__title {
-    color: #0B0223;
-    font-size: 38px;
-}
-
-.banner__heading {
-    font-size: 65px;
-}
-
-.banner__img img {
-    width: 100%;
-}
-
-/* ======  gamer css styles ======== */
-
-.gamer__content {
-    text-align: center;
-}
+    .nav__menu {
+        flex-direction: column;
+    }
 
 
-/* ======  gamer funny css styles ======== */
-#gamer__funny {
-    padding: 50px 0;
-}
+    /* ======  banner css styles ======== */
+    #banner {
+        margin-top: 50px;
+    }
 
-.funny__gallary {
-    grid-template-columns:1fr;
-}
-/* ======  instant css styles ======== */
+    .banner__container {
+        flex-direction: column-reverse;
+        justify-content: center;
+        row-gap: 32px;
+    }
 
-.instant__container {
-    row-gap: 50px;
-}
-.instant__heading {
-    text-align: center;
-}
-.instant__details {
-    text-align: center;
-}
-.instant__img img {
-    width: 100%;
-    margin: 0 auto;
-}
+    .banner__title {
+        color: #0B0223;
+        font-size: 38px;
+    }
 
-.instant__big__img {
-    position: relative;
-}
+    .banner__heading {
+        font-size: 65px;
+    }
 
-.instant__small__img {
-    position: absolute;
-    left: -20%;
-    bottom: -10%;
-}
+    .banner__img img {
+        width: 100%;
+    }
 
-/* ======  anywhere css styles ======== */
+    /* ======  gamer css styles ======== */
 
-.anywhere__container .instant__heading,
-.instant__details {
-    text-align: center;
-}
-
-.anywhere__small__img {
-    position: absolute;
-    bottom: -20%;
-    right: -10%;
-}
-
-/* ======  career css styles ======== */
-
-.career__content {
-    max-width: 100%;
-}
+    .gamer__content {
+        text-align: center;
+    }
 
 
-.career__list__main {
-    justify-content:center;
-    flex-wrap: wrap;
-    text-align: center;
-}
+    /* ======  gamer funny css styles ======== */
+    #gamer__funny {
+        padding: 50px 0;
+    }
 
-.career__list__two {
-    text-align: center;
-}
-#career button {
-    display: inline-block;
-    background: #FFF;
-    color: #FF42A5;
-    margin: a auto;
-}
+    .funny__gallary {
+        grid-template-columns: 1fr;
+    }
 
-/* ======  games css styles ======== */
-#games {
-    padding: 120px 0;
-}
+    /* ======  instant css styles ======== */
 
-.games__container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 57px;
-}
+    .instant__container {
+        row-gap: 50px;
+    }
 
-.games__items {
-    display: flex;
-    align-items: center;
-    gap: 16px;
-}
+    .instant__heading {
+        text-align: center;
+    }
 
-.games__type {
-    color: #0B0223;
-    font-size: 20px;
-    font-weight: 600;
-}
+    .instant__details {
+        text-align: center;
+    }
 
-/* ======  footer css styles ======== */
-footer {
-    text-align: center;
-    background: #0B0223;
-    padding: 120px 0;
-}
+    .instant__img {
+        margin-left: 15%;
+    }
 
-.footer__logo {
-    font-size: 45px;
-    font-weight: 700;
-    color: #fff;
-    display: flex;
-    justify-content: center;
-    align-content: center;
-    line-height: 0.8;
-}
+    .instant__small__img img,
+    .anywhere__small__img img {
+        height: 150px;
+    }
 
-.footer__links {
-    display: flex;
-    justify-content: center;
-    gap: 60px;
-    margin: 56px 0;
-    flex-wrap: wrap;
-}
+    /* ======  anywhere css styles ======== */
 
-.footer__links a {
-    color: #FFF;
-    font-size: 18px;
-    font-weight: 600;
-    text-transform: capitalize;
+    .anywhere__container .instant__heading,
+    .instant__details {
+        text-align: center;
+    }
 
-}
+    #anywhere .instant__img {
+        margin-left: 0;
+        margin-right: 15%;
+    }
 
-.footer__icons {
-    display: flex;
-    justify-content: center;
-    gap: 40px;
-    flex-wrap: wrap;
-}
+    /* ======  career css styles ======== */
+    #career {
+        background-position: bottom;
+        padding: 120px 0 360px 0;
+    }
+    .career__list__main {
+        font-size: 12px;
+    }
 
-.footer__links__two {
-    display: flex;
-    justify-content: center;
-    gap: 60px;
-    flex-wrap: wrap;
-}
+    /* ======  games css styles ======== */
 
-.footer__links__two a {
-    color: rgba(255, 255, 255, 0.60);
-    font-size: 16px;
-    font-weight: 500;
-    text-transform: capitalize;
-    margin: 74px 0 28px 0;
-}
+    .games__container {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        justify-content: center;
+        row-gap: 20px;
+    }
 
-.copyright a {
-    color: rgba(255, 255, 255, 0.60);
-    font-size: 16px;
-    font-weight: 500;
-}
+    .games__items img {
+        height: 20px;
+    }
+
+    .games__type {
+        font-size: 10px;
+    }
+
+    /* ======  footer css styles ======== */
+
+    .footer__links {
+        row-gap: 30px;
+    }
+    .footer__links a{
+        font-size: 16px;
+    }
+
+    .footer__icons {
+        max-width: 70%;
+        margin: 0 auto;
+    }
+
+    .footer__links__two {
+        gap: 30px;
+        margin: 50px 0;
+    }
+    .copyright a {
+        line-height: 1.5;
+    }
 }

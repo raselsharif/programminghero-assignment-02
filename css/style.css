@@ -500,6 +500,7 @@ footer {
     justify-content: center;
     gap: 60px;
     flex-wrap: wrap;
+    margin: 74px 0 28px 0;
 }
 
 .footer__links__two a {
@@ -507,7 +508,6 @@ footer {
     font-size: 16px;
     font-weight: 500;
     text-transform: capitalize;
-    margin: 74px 0 28px 0;
 }
 
 .copyright a {
