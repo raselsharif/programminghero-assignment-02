@@ -55,7 +55,7 @@ button:hover {
     justify-content: space-between;
     align-items: center;
     padding-top: 37px;
-    flex-wrap: wrap;
+    
 }
 
 .nav__logo {
@@ -64,7 +64,7 @@ button:hover {
     display: flex;
     align-items: center;
     line-height: 0.8;
-    flex-wrap: wrap;
+    
 }
 
 .logo__text {
@@ -78,7 +78,7 @@ button:hover {
 .nav__menu {
     display: flex;
     align-items: center;
-    flex-wrap: wrap;
+    
     gap: 32px;
 }
 
@@ -120,13 +120,17 @@ button:hover {
 /* ======  banner css styles ======== */
 #banner {
     margin-top: 50px;
+    background: url(../images/Group\ 14.png);
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: contain;
 }
 
 .banner__container {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    flex-wrap: wrap;
+    
 }
 
 .banner__title {
@@ -177,7 +181,7 @@ button:hover {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    flex-wrap: wrap;
+    
 }
 
 .gamer__img img {
@@ -230,7 +234,7 @@ button:hover {
     font-size: 48px;
     font-weight: 700;
     margin-bottom: 16px;
-    flex-wrap: wrap;
+    
 }
 
 .funny__color {
@@ -257,8 +261,15 @@ button:hover {
 
 .funny__img {
     position: relative;
-    border-radius: 16px;
+    border-radius: 20px;
     cursor: pointer;
+    border: 5px solid transparent;
+    height: 400px;
+    width: 342px;
+}
+.funny__img img{
+    height: 100%;
+    width: 100%;
 }
 
 .funny__img:hover .funny__overly {
@@ -266,6 +277,7 @@ button:hover {
     height: 100%;
     opacity: 1;
     visibility: visible;
+    border: 5px solid #ff42a5;
 }
 
 .funny__overly {
@@ -315,7 +327,7 @@ button:hover {
     justify-content: center;
     align-items: center;
     column-gap: 264px;
-    flex-wrap: wrap;
+    
 }
 
 .instant__heading {
@@ -367,7 +379,7 @@ button:hover {
     align-items: center;
     column-gap: 264px;
     flex-direction: row-reverse;
-    flex-wrap: wrap;
+    
 }
 
 .anywhere__container .instant__heading,
@@ -435,8 +447,8 @@ button:hover {
 }
 
 .games__container {
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
+    display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     row-gap: 50px;
 }
@@ -488,7 +500,7 @@ footer {
     justify-content: center;
     gap: 60px;
     margin: 56px 0;
-    flex-wrap: wrap;
+    
 }
 
 .footer__links a {
@@ -503,14 +515,14 @@ footer {
     display: flex;
     justify-content: center;
     gap: 40px;
-    flex-wrap: wrap;
+    
 }
 
 .footer__links__two {
     display: flex;
     justify-content: center;
     gap: 60px;
-    flex-wrap: wrap;
+    
     margin: 74px 0 28px 0;
 }
 

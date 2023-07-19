@@ -22,7 +22,7 @@
         flex-direction: column;
     }
 
-    .nav__menu {
+    .nav__menu, .gamer__container, .instant__container, .anywhere__container {
         flex-direction: column;
     }
 
@@ -30,6 +30,7 @@
     /* ======  banner css styles ======== */
     #banner {
         margin-top: 50px;
+        background: none;
     }
 
     .banner__container {
@@ -169,6 +170,7 @@
     }
 
     .footer__links__two {
+        flex-wrap: wrap;
         gap: 25px;
         margin: 50px 0;
     }
@@ -195,6 +197,7 @@
     /* ======  banner css styles ======== */
     #banner {
         margin-top: 50px;
+        background: none;
     }
 
     .banner__container {
@@ -210,6 +213,7 @@
     /* ======  gamer css styles ======== */
     .gamer__container {
         justify-content:center;
+        flex-direction: column;
     }
     .gamer__content {
         text-align: center;
@@ -309,6 +313,10 @@
         display: grid;
         grid-template-columns: auto auto auto auto auto auto;
         gap: 20px;
+    }
+    .footer__links__two{
+        flex-wrap: wrap;
+        gap: 20px 40px;
     }
     .footer__links a{
         font-size: 15px;
