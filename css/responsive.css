@@ -3,7 +3,18 @@
     .container {
         padding: 0 20px;
     }
-
+    button {
+        font-size: 16px;
+    }
+    
+    
+    .btn__primary,
+    .btn__secondary {
+        padding: 15px 30px;
+    }
+    .btn__secondary {
+        margin-left: 5px;
+    }
     /* ======  head css styles ======== */
     .nav__container {
         justify-content: center;
@@ -45,7 +56,9 @@
         text-align: center;
     }
 
-
+    .gamer__heading {
+        font-size: 38px;
+    }
     /* ======  gamer funny css styles ======== */
     #gamer__funny {
         padding: 50px 0;
@@ -53,6 +66,9 @@
 
     .funny__gallary {
         grid-template-columns: 1fr;
+    }
+    .funny__heading {
+        font-size: 38px;
     }
 
     /* ======  instant css styles ======== */
@@ -63,6 +79,7 @@
 
     .instant__heading {
         text-align: center;
+        font-size: 38px;
     }
 
     .instant__details {
@@ -71,6 +88,10 @@
 
     .instant__img {
         margin-left: 15%;
+        margin-top: 20px;
+    }
+    .instant__big__img img{
+        height: 330px;
     }
 
     .instant__small__img img,
@@ -109,12 +130,20 @@
     }
 
     .games__items img {
-        height: 20px;
+        height: 25px;
     }
 
     .games__type {
-        font-size: 10px;
+        font-size: 8px;
     }
+    .games__items {
+        gap: 5px;
+        padding: 5px;
+    }
+    .games__items:nth-child(1), .games__items:nth-child(7) {
+        margin-left: 8px;
+    }
+    
 
     /* ======  footer css styles ======== */
 
@@ -126,12 +155,12 @@
     }
 
     .footer__icons {
-        max-width: 70%;
+        max-width: 75%;
         margin: 0 auto;
     }
 
     .footer__links__two {
-        gap: 30px;
+        gap: 25px;
         margin: 50px 0;
     }
     .copyright a {
