@@ -426,7 +426,9 @@ button:hover {
     background: #FFF;
     color: #FF42A5;
 }
-
+.career__img{
+    display: none;
+}
 /* ======  games css styles ======== */
 #games {
     padding: 120px 0;
